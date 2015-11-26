@@ -85,11 +85,13 @@
 * [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
 
 1. **Foundation** 
-   `@media screen and (min-width: 800px) { }`
+  - `<meta name="viewport" content="width=device-width, initial-scale=1">`
 1. **Breakpoints** 
-   `@media screen and (min-width: 800px) { }`
-1. **Structure** – a grid system
-1. **Navigation** – collapsible navigation
+   - `@media screen and (min-width: 800px) { }`
+1. **Structure** 
+  - a grid system
+1. **Navigation** 
+  - collapsible navigation
 
 
 ### Bootstrap
