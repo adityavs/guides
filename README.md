@@ -13,6 +13,7 @@
 **CSS Frameworks**
 * [What Bootstrap Is and How To Use It](#bootstrap)
 
+---
 
 ### Full Screen Navigation Overlay
 
@@ -111,6 +112,23 @@ $('#nav-toggle').click(function () {
 ```
 
 ### Responsive Dropdown Navigation Bar
+
+A classic top navigation bar with dropdowns. The navigation links collapse into a hamburger icon toggle on mobile collapse.
+
+```js
+$('nav ul li a:not(:only-child)').click(function (e) {
+	$(this).siblings('.nav-dropdown').toggle();
+	$('.nav-dropdown').not($(this).siblings()).hide();
+	e.stopPropagation();
+});
+$('html').click(function () {
+	$('.nav-dropdown').hide();
+});
+$('#nav-toggle').click(function () {
+	$('nav ul').slideToggle();
+});
+``
+
 **[Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/) &bull; [Demo](http://codepen.io/taniarascia/full/dYvvYv/)**
 
 ###  Flexbox Grid
