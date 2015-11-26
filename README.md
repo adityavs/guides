@@ -2,31 +2,21 @@
 
 Guides, tutorials, demos and snippets for front end and back end web development.
 
-**Navigation**
+**Design**
 * [Full Screen Navigation Overlay](#full-screen-navigation-overlay) 
 * [Off Canvas Navigation](#off-canvas-navigation) 
 * [Responsive Dropdown Navigation Bar](#responsive-dropdown-navigation-bar)
-
-**Layout**
 * [Flexbox Grid](#flexbox-grid)
 * [Float Grid](#float-grid)
 * [Fundamentals of Responsive Design](#fundamentals-of-responsive-design)
-
-**CSS Frameworks**
 * [What Bootstrap Is and How To Use It](#bootstrap)
 
-**Dev Environments**
+**Development**
 * [Local Server Environment (MAMP)](#local-server-environment---mamp)
 * [Virtual Hosts](#virtual-hosts)
-
-**Content Management Systems (CMS)**
 * [Developing a WordPress Theme from Scratch](#developing-a-wordpress-theme-from-scratch)
 * [Migrating WordPress](#migrating-wordpress)
-
-**Version Control**
 * [Getting Started with Git](#getting-started-with-git)
-
-**Task Runners**
 * [Using Grunt and Sass](#using-grunt-and-sass)
 
 **[More](#more)**
