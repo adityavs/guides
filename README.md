@@ -21,8 +21,13 @@ Web Development Guides and Tutorials
 
 ### Structure/Responsive Design
 
-* [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
+#### Grids
+
 * [Flexbox Grid](http://www.taniarascia.com/easiest-flex-grid-ever/)
+  * [Demo](http://codepen.io/taniarascia/full/rOLEGe/)
+
+* [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
+
 
 ### Frameworks
 
