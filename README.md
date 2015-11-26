@@ -33,7 +33,7 @@ Web Development Guides and Tutorials
 ```css
 .column { flex-basis: 100% }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .row {
     display: flex;
     flex-direction: row;
@@ -62,6 +62,7 @@ Web Development Guides and Tutorials
   max-width: 1600px;
 }
 .one, .one-third, .two-thirds, .one-fourth, .half { width: 100%; }
+
 @media only screen and (min-width: 800px) {
   .one { width: 100% }
   .half { width: calc(100% / 2) }
