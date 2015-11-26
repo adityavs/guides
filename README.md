@@ -40,15 +40,15 @@ Web Development Guides and Tutorials
     flex-wrap: nowrap;
   }
   .column { flex: 1 }
-  ._25 { flex: 2.5 }
-  ._5 { flex: 5 }
+  .one-fourth { flex: 2.5 }
+  .half { flex: 5 }
 }
 ```
 
 ```html
 <div class="row">
-  <div class="column">50%</div>
-  <div class="column">50%</div>
+  <div class="column"> 50% </div>
+  <div class="column"> 50% </div>
 </div>
 ```
 
@@ -73,6 +73,12 @@ Web Development Guides and Tutorials
   .two-thirds { width: calc(100% / 3 * 2) }
   .column { float: left }
 }
+```
+```html
+<div class="row">
+  <div class="half column"> 50% </div>
+  <div class="half column"> 50% </div>
+</div>
 ```
 
 * [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
