@@ -38,7 +38,7 @@ Web Development Guides and Tutorials
 
 ### Git
 
-* #### [Getting Started with Git](http://www.taniarascia.com/getting-started-with-git/)
+#### [Getting Started with Git](http://www.taniarascia.com/getting-started-with-git/)
 
 ### Task Runners
 
