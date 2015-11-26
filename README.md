@@ -16,11 +16,14 @@
 
 ### Off Canvas Navigation
 
-Slide out navigation that is hidden until triggered by toggling the navigation button. Inspired by the [Lanyon/Poole theme for Jekyll](http://lanyon.getpoole.com/).
+Slide out navigation that is hidden off canvas until triggered. Inspired by the [Lanyon/Poole theme for Jekyll](http://lanyon.getpoole.com/).
 
 **[Tutorial](http://www.taniarascia.com/off-canvas-navigation/) &bull; [Demo](http://codepen.io/taniarascia/full/QjBwpB/)**
 
 ### Full Screen Navigation Overlay
+
+A style of navigation that triggers a full screen overlay. This example utilizes flexbox.
+
 **[Tutorial](http://www.taniarascia.com/full-screen-navigation-overlay/) &bull; [Demo](http://codepen.io/taniarascia/full/yYrXRG/)**
 
 ### Responsive Dropdown Navigation Bar
