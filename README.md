@@ -14,7 +14,7 @@
 * [What Bootstrap Is and How To Use It](#bootstrap)
 
 **Dev Environments**
-* [Local Server Environment (MAMP)(#local-server-environment-mamp)
+* [Local Server Environment (MAMP)](#local-server-environment-mamp)
 
 ---
 
