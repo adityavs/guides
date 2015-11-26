@@ -1,13 +1,9 @@
 Web Development Guides and Tutorials
 ========
 
-## General
+* [Flexbox Grid][] 
 
-* [Development Terms and Abbreviations](http://www.taniarascia.com/development-terms-abbreviations/)
 
-## Front End
-
-### Navigation
 
 ##### Off Canvas Navigation
 * [Tutorial](http://www.taniarascia.com/off-canvas-navigation/)
@@ -39,10 +35,10 @@ Web Development Guides and Tutorials
     flex-direction: row;
     flex-wrap: nowrap;
   }
-  .column { flex: 1 }
-  .one-fourth { flex: 2.5 }
-  .one-third { flex: 3.3 }
-  .half { flex: 5 }
+  .column { flex: 1; }
+  .one-fourth { flex: 2.5; }
+  .one-third { flex: 3.3; }
+  .half { flex: 5; }
 }
 ```
 
@@ -67,11 +63,11 @@ Web Development Guides and Tutorials
 .one, .one-third, .two-thirds, .one-fourth, .half { width: 100%; }
 
 @media only screen and (min-width: 800px) {
-  .one { width: 100% }
-  .half { width: calc(100% / 2) }
-  .one-third { width: calc(100% / 3) }
-  .one-fourth { width: calc(100% / 4) }
-  .two-thirds { width: calc(100% / 3 * 2) }
+  .one { width: 100%; }
+  .half { width: calc(100% / 2); }
+  .one-third { width: calc(100% / 3); }
+  .one-fourth { width: calc(100% / 4); }
+  .two-thirds { width: calc(100% / 3 * 2); }
   .column { float: left }
 }
 ```
