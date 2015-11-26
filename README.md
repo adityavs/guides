@@ -23,7 +23,7 @@ Web Development Guides and Tutorials
 
 ### Structure/Responsive Design
 
-### Grids
+### Responsive Grids
 
 ##### Flexbox Grid
 
