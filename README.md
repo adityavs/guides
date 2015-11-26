@@ -10,6 +10,7 @@ Web Development Guides and Tutorials
 ### Navigation
 
 * [Off Canvas Navigation](http://www.taniarascia.com/off-canvas-navigation/)
+* [Demo](http://codepen.io/taniarascia/full/yYrXRG/)
 * [Full Screen Navigation Overlay](http://www.taniarascia.com/full-screen-navigation-overlay/)
 * [Responsive Dropdown Navigation Bar](http://www.taniarascia.com/responsive-dropdown-navigation-bar/)
 
@@ -38,7 +39,7 @@ Web Development Guides and Tutorials
 
 ### Git
 
-#### [Getting Started with Git](http://www.taniarascia.com/getting-started-with-git/)
+* [Getting Started with Git](http://www.taniarascia.com/getting-started-with-git/)
 
 ### Task Runners
 
