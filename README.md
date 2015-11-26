@@ -1,6 +1,6 @@
 ## Web Development Guides, Tutorials and Snippets
 
-Guides, tutorials and snippets for front and back end web development. Created by me for you with love.
+Guides, tutorials, demos and snippets for front end and back end web development.
 
 **Navigation**
 * [Full Screen Navigation Overlay](#full-screen-navigation-overlay) 
