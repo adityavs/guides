@@ -18,11 +18,78 @@
 
 Slide out navigation that is hidden off canvas until triggered. Inspired by the [Lanyon/Poole theme for Jekyll](http://lanyon.getpoole.com/).
 
+```css
+html, body { overflow-x: hidden; }
+
+.position {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+article {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+@media screen and (min-width: 800px) {
+  .position {
+    position: fixed;
+  }
+}
+
+main {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+aside {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: -250px;
+}
+
+.show-nav aside,
+.show-nav .position,
+.show-nav main {
+  transform: translateX(250px);
+}
+.show-nav .position {
+  position: fixed;
+}
+```
+
+```html
+<aside>
+  Navigation
+</aside>
+<a id="nav-toggle" href="#!" class="position">Toggle</a>
+<main>
+  <article>
+  Main content
+  </article>
+</main>
+```
+
+```js
+$('#nav-toggle').click(function () {
+	this.classList.toggle("active");
+	if ($('body').hasClass('show-nav')) {
+		$('body').removeClass('show-nav');
+	} else {
+		$('body').addClass('show-nav');
+	}
+});
+```
+
 **[Tutorial](http://www.taniarascia.com/off-canvas-navigation/) &bull; [Demo](http://codepen.io/taniarascia/full/QjBwpB/)**
 
 ### Full Screen Navigation Overlay
 
 A style of navigation that triggers a full screen overlay. This example utilizes flexbox.
+
 
 **[Tutorial](http://www.taniarascia.com/full-screen-navigation-overlay/) &bull; [Demo](http://codepen.io/taniarascia/full/yYrXRG/)**
 
