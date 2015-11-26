@@ -9,25 +9,28 @@
 * [Flexbox Grid](#flexbox-grid)
 * [Float Grid](#float-grid)
 * [Fundamentals of Responsive Design](#fundamentals-of-responsive-design)
+
+**CSS Frameworks**
 * [What Bootstrap Is and How To Use It](#bootstrap)
 
 
 ### Off Canvas Navigation
-* [Tutorial](http://www.taniarascia.com/off-canvas-navigation/)
-* [Demo](http://codepen.io/taniarascia/full/QjBwpB/)
+
+Slide out navigation that is hidden until triggered by toggling the navigation button. Inspired by the [Lanyon/Poole theme for Jekyll](http://lanyon.getpoole.com/).
+
+**[Tutorial](http://www.taniarascia.com/off-canvas-navigation/) &bull; [Demo](http://codepen.io/taniarascia/full/QjBwpB/)**
 
 ### Full Screen Navigation Overlay
-* [Tutorial](http://www.taniarascia.com/full-screen-navigation-overlay/)
-* [Demo](http://codepen.io/taniarascia/full/yYrXRG/) 
+**[Tutorial](http://www.taniarascia.com/full-screen-navigation-overlay/) &bull; [Demo](http://codepen.io/taniarascia/full/yYrXRG/)**
 
 ### Responsive Dropdown Navigation Bar
-* [Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/)
-* [Demo](http://codepen.io/taniarascia/full/dYvvYv/)
+**[Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/) &bull; [Demo](http://codepen.io/taniarascia/full/dYvvYv/)**
 
 ###  Flexbox Grid
 
-* [Tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/)
-* [Demo](http://codepen.io/taniarascia/full/rOLEGe/)
+A simple, responsive grid made with flexbox. This grid is based on percentages and is infinitely expandable.
+
+**[Tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/) &bull; [Demo](http://codepen.io/taniarascia/full/rOLEGe/)**
 
 ```css
 .column { flex-basis: 100% }
@@ -54,8 +57,9 @@
 
 ### Float Grid
 
-* [Tutorial](http://www.taniarascia.com/you-dont-need-a-framework/)
-* [Demo](http://codepen.io/taniarascia/pen/GpGdyy)
+A simple, responsive grid made with CSS floats and a clearfix hack. This grid is based on percentages rather than the traditional 12-column grid. You can add as many classes as you want columns.
+
+**[Tutorial](http://www.taniarascia.com/you-dont-need-a-framework/) &bull; [Demo](http://codepen.io/taniarascia/pen/GpGdyy)**
 
 ```css
 .row::before, .row::after {
@@ -84,21 +88,16 @@
 ### Fundamentals of Responsive Design
 * [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
 
-1. **Foundation** 
-  - `<meta name="viewport" content="width=device-width, initial-scale=1">`
-1. **Breakpoints** 
-   - `@media screen and (min-width: 800px) { }`
-1. **Structure** 
-  - a grid system
-1. **Navigation** 
-  - collapsible navigation
-
+1. **Foundation** - `<meta name="viewport" content="width=device-width, initial-scale=1">`
+1. **Breakpoints** - `@media screen and (min-width: 800px) { }`
+1. **Structure** - a grid system
+1. **Navigation** - collapsible navigation
 
 ### Bootstrap
 
 * [What Bootstrap Is and How To Use It](http://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
 
-## Back End
+
 
 ### Dev Environments
 
