@@ -1,8 +1,8 @@
 ## Web Development Guides, Tutorials and Snippets
 
 **Navigation**
-* [Off Canvas Navigation](#off-canvas-navigation) 
 * [Full Screen Navigation Overlay](#full-screen-navigation-overlay) 
+* [Off Canvas Navigation](#off-canvas-navigation) 
 * [Responsive Dropdown Navigation Bar](#responsive-dropdown-navigation-bar)
 
 **Layout**
@@ -14,9 +14,51 @@
 * [What Bootstrap Is and How To Use It](#bootstrap)
 
 
+### Full Screen Navigation Overlay
+
+A style of navigation that triggers a full screen overlay. This example utilizes flexbox.
+
+**[Tutorial](http://www.taniarascia.com/full-screen-navigation-overlay/) &bull; [Demo](http://codepen.io/taniarascia/full/yYrXRG/)**
+
+```css
+aside {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 2;
+}
+.open {
+	opacity: 1;
+	visibility: visible;
+}
+```
+
+```html
+<aside>
+  <div class="toggle-overlay">
+    <a class="close"> Toggle </a>
+  </div>
+  <nav>
+  </nav>
+</aside>
+```
+
+```js
+ $('.toggle-overlay').click(function() {
+		$('aside').toggleClass('open');
+	});
+```
+
+
 ### Off Canvas Navigation
 
 Slide out navigation that is hidden off canvas until triggered. Inspired by the [Lanyon/Poole theme for Jekyll](http://lanyon.getpoole.com/).
+
+**[Tutorial](http://www.taniarascia.com/off-canvas-navigation/) &bull; [Demo](http://codepen.io/taniarascia/full/QjBwpB/)**
 
 ```css
 html, body { overflow-x: hidden; }
@@ -51,7 +93,7 @@ article {
 
 ```html
 <aside> Navigation </aside>
-<a id="nav-toggle" href="#!" class="position">Toggle</a>
+<a id="nav-toggle" class="position">Toggle</a>
 <main>
   <article> Main content </article>
 </main>
@@ -67,15 +109,6 @@ $('#nav-toggle').click(function () {
 	}
 });
 ```
-
-**[Tutorial](http://www.taniarascia.com/off-canvas-navigation/) &bull; [Demo](http://codepen.io/taniarascia/full/QjBwpB/)**
-
-### Full Screen Navigation Overlay
-
-A style of navigation that triggers a full screen overlay. This example utilizes flexbox.
-
-
-**[Tutorial](http://www.taniarascia.com/full-screen-navigation-overlay/) &bull; [Demo](http://codepen.io/taniarascia/full/yYrXRG/)**
 
 ### Responsive Dropdown Navigation Bar
 **[Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/) &bull; [Demo](http://codepen.io/taniarascia/full/dYvvYv/)**
