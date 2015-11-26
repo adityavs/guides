@@ -1,25 +1,28 @@
-Web Development Guides and Tutorials
-========
+## Web Development Guides, Tutorials and Snippets
 
-1. [Flexbox Grid](#flexbox-grid)
+**Navigation**
+* [Off Canvas Navigation](#off-canvas-navigation) 
+* [Full Screen Navigation Overlay](#full-screen-navigation-overlay) 
+* [Responsive Dropdown Navigation Bar](#responsive-dropdown-navigation-bar)
+
+**Layout**
+* [Flexbox Grid](#flexbox-grid)
+* [Float Grid](#float-grid)
+* [Fundamentals of Responsive Design](#fundamentals-of-responsive-design)
+* [What Bootstrap Is and How To Use It](#bootstrap)
 
 
-
-##### Off Canvas Navigation
+### Off Canvas Navigation
 * [Tutorial](http://www.taniarascia.com/off-canvas-navigation/)
 * [Demo](http://codepen.io/taniarascia/full/QjBwpB/)
 
-##### Full Screen Navigation Overlay
+### Full Screen Navigation Overlay
 * [Tutorial](http://www.taniarascia.com/full-screen-navigation-overlay/)
 * [Demo](http://codepen.io/taniarascia/full/yYrXRG/) 
 
-##### Responsive Dropdown Navigation Bar
+### Responsive Dropdown Navigation Bar
 * [Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/)
 * [Demo](http://codepen.io/taniarascia/full/dYvvYv/)
-
-### Structure/Responsive Design
-
-### Responsive Grids
 
 ###  Flexbox Grid
 
@@ -78,14 +81,18 @@ Web Development Guides and Tutorials
 </div>
 ```
 
+### Fundamentals of Responsive Design
 * [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
 
+* **Foundation** - `<meta name="viewport" content="width=device-width, initial-scale=1">`
+* **Breakpoints** - `@media screen and (min-width: 800px) { }`
+* **Structure** – a grid system
+* **Navigation** – collapsible navigation
 
-### Frameworks
 
-#### Bootstrap
+### Bootstrap
 
-* [What is Bootstrap and How Do I Use It](http://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
+* [What Bootstrap Is and How To Use It](http://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
 
 ## Back End
 
