@@ -30,9 +30,24 @@ Web Development Guides and Tutorials
 * [Tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/)
 * [Demo](http://codepen.io/taniarascia/full/rOLEGe/)
 
+```css
+.column { flex-basis: 100% }
+
+@media screen and (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .column { flex: 1 }
+  ._25 { flex: 2.5 }
+  ._5 { flex: 5 }
+}
+```
+
 ##### Float Grid
 
-*[Tutorial](http://www.taniarascia.com/you-dont-need-a-framework/)
+* [Tutorial](http://www.taniarascia.com/you-dont-need-a-framework/)
 * [Demo](http://codepen.io/taniarascia/pen/GpGdyy)
 
 ```css
