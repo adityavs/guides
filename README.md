@@ -30,7 +30,6 @@ Web Development Guides and Tutorials
 * [Tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/)
 * [Demo](http://codepen.io/taniarascia/full/rOLEGe/)
 
-**CSS**
 ```css
 .column { flex-basis: 100% }
 
@@ -45,8 +44,6 @@ Web Development Guides and Tutorials
   ._5 { flex: 5 }
 }
 ```
-
-**HTML**
 
 ```html
 <div class="row">
