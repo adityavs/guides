@@ -23,17 +23,21 @@ Web Development Guides and Tutorials
 
 #### Grids
 
-* [Flexbox Grid](http://www.taniarascia.com/easiest-flex-grid-ever/)
+* Flexbox Grid
+  * [Tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/)
   * [Demo](http://codepen.io/taniarascia/full/rOLEGe/)
+* Float Grid
+  * [Tutorial](http://www.taniarascia.com/you-dont-need-a-framework/)
+  * [Demo](http://codepen.io/taniarascia/pen/GpGdyy)
 
 * [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
 
 
 ### Frameworks
 
+#### Bootstrap
+
 * [What is Bootstrap and How Do I Use It](http://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
-
-
 
 ## Back End
 
@@ -42,7 +46,7 @@ Web Development Guides and Tutorials
 * [Setting Up a Local Server Environment with MAMP](http://www.taniarascia.com/local-environment/)
 * [Setting Up Virtual Hosts](http://www.taniarascia.com/setting-up-virtual-hosts/)
 
-### CMS
+### Content Management System (CMS)
 
 * [Developing a WordPress Theme from Scratch](http://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/)
 * [Migrating a WordPress Site to a Live Server](http://www.taniarascia.com/migrating-a-wordpress-site-to-a-live-server/)
