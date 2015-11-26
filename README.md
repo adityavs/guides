@@ -1,6 +1,10 @@
 Web Development Guides and Tutorials
 ========
 
+## General
+
+* [Development Terms and Abbreviations](http://www.taniarascia.com/development-terms-abbreviations/)
+
 ## Front End
 
 ### Navigation
@@ -9,8 +13,9 @@ Web Development Guides and Tutorials
 * [Full Screen Navigation Overlay](http://www.taniarascia.com/full-screen-navigation-overlay/)
 * [Responsive Dropdown Navigation Bar](http://www.taniarascia.com/responsive-dropdown-navigation-bar/)
 
-### Structure
+### Structure/Responsive Design
 
+* [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
 * [Flexbox Grid](http://www.taniarascia.com/easiest-flex-grid-ever/)
 
 ### Frameworks
