@@ -15,7 +15,9 @@
 
 **Dev Environments**
 * [Local Server Environment (MAMP)](#local-server-environment-mamp)
+* [Virtual Hosts](#virtual-hosts)
 
+**Content Management Systems (CMS)**
 ---
 
 ### Full Screen Navigation Overlay
@@ -194,7 +196,10 @@ A simple, responsive grid made with CSS floats and a clearfix hack. This grid is
 ```
 
 ### Fundamentals of Responsive Design
-* [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
+
+Before integrating third party frameworks into your websites, learn how to build your own simple framework and understand responsive breakpoints, grids, and navigation styles.
+
+**[Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)**
 
 1. **Foundation** - `<meta name="viewport" content="width=device-width, initial-scale=1">`
 1. **Breakpoints** - `@media screen and (min-width: 800px) { }`
@@ -203,14 +208,36 @@ A simple, responsive grid made with CSS floats and a clearfix hack. This grid is
 
 ### Bootstrap
 
-* [What Bootstrap Is and How To Use It](http://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)
+Bootstrap is one of the most popular CSS frameworks. Learn what a framework is, how to get started with Bootstrap, and how to use the documentation to build a responsive frame upon which you can add custom styles.
 
+**[What Bootstrap Is and How To Use It](http://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)**
 
+* What is Bootstrap?
+* Why is a framework important?
+* Building a basic Bootstrap template
+* Applying custom styles
 
-### Dev Environments
+### Local Server Environment - MAMP
 
-* [Local Server Environment (MAMP)](http://www.taniarascia.com/local-environment/)
-* [Virtual Hosts](http://www.taniarascia.com/setting-up-virtual-hosts/)
+Setting up a local environment is necessary In order to begin working in the back end with languages such as PHP and MySQL. Learn how to set up a LAMP/MAMP/WAMP stack.
+
+**[Setting Up a Local Server Environment with MAMP](http://www.taniarascia.com/local-environment/)**
+
+* Linux/Mac/Windows
+* Apache
+* MySQL
+* PHP
+
+### Virtual Hosts
+
+If you want to set up more than one websites on a local server, you can use virtual hosts to work on as many sites as you want.
+
+**[Setting Up Virtual Hosts](http://www.taniarascia.com/setting-up-virtual-hosts/)**
+
+* Editing the Apache configuration file - `httpd.conf`
+* Editing the hosts files - `hosts`
+* Setting the correct ports
+
 
 ### Content Management System (CMS)
 
