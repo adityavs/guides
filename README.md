@@ -16,8 +16,11 @@ Web Development Guides and Tutorials
 
 #### Full Screen Navigation Overlay
 * [Tutorial](http://www.taniarascia.com/full-screen-navigation-overlay/)
-* [Demo](http://codepen.io/taniarascia/full/yYrXRG/)
-* [Responsive Dropdown Navigation Bar](http://www.taniarascia.com/responsive-dropdown-navigation-bar/)
+* [Demo](http://codepen.io/taniarascia/full/yYrXRG/) 
+
+#### Responsive Dropdown Navigation Bar
+* [Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/)
+* [Demo](http://codepen.io/taniarascia/full/dYvvYv/)
 
 ### Structure/Responsive Design
 
