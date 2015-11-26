@@ -84,7 +84,7 @@
 ### Fundamentals of Responsive Design
 * [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
 
-1. **Breakpoints** 
+1. **Foundation** 
    `@media screen and (min-width: 800px) { }`
 1. **Breakpoints** 
    `@media screen and (min-width: 800px) { }`
