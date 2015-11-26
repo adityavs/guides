@@ -84,8 +84,8 @@
 ### Fundamentals of Responsive Design
 * [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
 
-* **Foundation**
-  * `<meta name="viewport" content="width=device-width, initial-scale=1">`
+* **Breakpoints** 
+   `@media screen and (min-width: 800px) { }`
 * **Breakpoints** 
    `@media screen and (min-width: 800px) { }`
 * **Structure** – a grid system
