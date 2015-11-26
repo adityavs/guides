@@ -275,11 +275,11 @@ This guide assumes no prior knowledge with or familiarity of Git, GitHub, versio
 
 **[Getting Started with Git](http://www.taniarascia.com/getting-started-with-git/)**
 
+### Using Grunt and Sass
+
 Understand how to use Node.js, Node Package Manager (npm), Grunt, Sass, and command line can be daunting. This guide assumes no prior knowledge of using the command line, installing Node.js, using npm, Grunt or Sass, and details every step along the way to ensure that Grunt it up and running. 
 
 By the end of this article you will be able to set up Grunt and use it to compile SCSS into CSS which is minified and autoprefixed, as well as minifying and linting JavaScript code.
-
-### Using Grunt and Sass
 
 **[Getting Started with Grunt and Sass](http://www.taniarascia.com/getting-started-with-grunt-and-sass/)**
 
