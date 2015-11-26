@@ -9,28 +9,31 @@ Web Development Guides and Tutorials
 
 ### Navigation
 
-#### Off Canvas Navigation
+##### Off Canvas Navigation
 * [Tutorial](http://www.taniarascia.com/off-canvas-navigation/)
 * [Demo](http://codepen.io/taniarascia/full/QjBwpB/)
 
-#### Full Screen Navigation Overlay
+##### Full Screen Navigation Overlay
 * [Tutorial](http://www.taniarascia.com/full-screen-navigation-overlay/)
 * [Demo](http://codepen.io/taniarascia/full/yYrXRG/) 
 
-#### Responsive Dropdown Navigation Bar
+##### Responsive Dropdown Navigation Bar
 * [Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/)
 * [Demo](http://codepen.io/taniarascia/full/dYvvYv/)
 
 ### Structure/Responsive Design
 
-#### Grids
+### Grids
 
-* Flexbox Grid
-  * [Tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/)
-  * [Demo](http://codepen.io/taniarascia/full/rOLEGe/)
-* Float Grid
-  * [Tutorial](http://www.taniarascia.com/you-dont-need-a-framework/)
-  * [Demo](http://codepen.io/taniarascia/pen/GpGdyy)
+##### Flexbox Grid
+
+* [Tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/)
+* [Demo](http://codepen.io/taniarascia/full/rOLEGe/)
+
+##### Float Grid
+
+*[Tutorial](http://www.taniarascia.com/you-dont-need-a-framework/)
+* [Demo](http://codepen.io/taniarascia/pen/GpGdyy)
 
 ```css
 .row::before, .row::after {
