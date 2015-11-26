@@ -1,5 +1,7 @@
 ## Web Development Guides, Tutorials and Snippets
 
+Guides, tutorials and snippets for front and back end web development. Created by me for you with love.
+
 **Navigation**
 * [Full Screen Navigation Overlay](#full-screen-navigation-overlay) 
 * [Off Canvas Navigation](#off-canvas-navigation) 
@@ -14,10 +16,20 @@
 * [What Bootstrap Is and How To Use It](#bootstrap)
 
 **Dev Environments**
-* [Local Server Environment (MAMP)](#local-server-environment-mamp)
+* [Local Server Environment (MAMP)](#local-server-environment---mamp)
 * [Virtual Hosts](#virtual-hosts)
 
 **Content Management Systems (CMS)**
+* [Developing a WordPress Theme from Scratch](#developing-a-wordpress-theme-from-scratch)
+* [Migrating WordPress](#migrating-wordpress)
+
+**Version Control**
+* [Getting Started with Git](#getting-started-with-git)
+
+**Task Runners**
+* [Using Grunt and Sass](#using-grunt-and-sass)
+
+
 ---
 
 ### Full Screen Navigation Overlay
@@ -239,19 +251,41 @@ If you want to set up more than one websites on a local server, you can use virt
 * Setting the correct ports
 
 
-### Content Management System (CMS)
+### Developing a WordPress Theme from Scratch
 
-* [Developing a WordPress Theme from Scratch](http://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/)
-* [Migrating a WordPress Site to a Live Server](http://www.taniarascia.com/migrating-a-wordpress-site-to-a-live-server/)
+You know HTML, but your potential clients don't. If you intend to make a website and pass it on to a user so that they might edit it by themselves in the future, a **content management system** (CMS) will be necessary. WordPress is the most popular CMS, and it's built on PHP.
 
-### Git
+This guide will show you how to take your HTML site and turn it into a WordPress theme. It assumes no prior knowledge of PHP or WordPress.
 
-* [Getting Started with Git](http://www.taniarascia.com/getting-started-with-git/)
+**[Developing a WordPress Theme from Scratch](http://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/)**
 
-### Task Runners
+### Migrating WordPress
 
-* [Getting Started with Grunt and Sass](http://www.taniarascia.com/getting-started-with-grunt-and-sass/)
+After creating a WordPress theme in a local environment, there are a few necessary steps to take to ensure that the site doesn't break when migrating to a live server.
 
-### APIs
+**[Migrating a WordPress Site to a Live Server](http://www.taniarascia.com/migrating-a-wordpress-site-to-a-live-server/)**
 
+### Getting Started with Git
+
+Links to Git repositories are everywhere. Learn how to use the command line to create a local project, upload it to a Git repository host (such as GitHub), and upload it onto a live server, bypassing FTP.
+
+This guide assumes no prior knowledge with or familiarity of Git, GitHub, version control software, or using command lines.
+
+**[Getting Started with Git](http://www.taniarascia.com/getting-started-with-git/)**
+
+Understand how to use Node.js, Node Package Manager (npm), Grunt, Sass, and command line can be daunting. This guide assumes no prior knowledge of using the command line, installing Node.js, using npm, Grunt or Sass, and details every step along the way to ensure that Grunt it up and running. 
+
+By the end of this article you will be able to set up Grunt and use it to compile SCSS into CSS which is minified and autoprefixed, as well as minifying and linting JavaScript code.
+
+### Using Grunt and Sass
+
+**[Getting Started with Grunt and Sass](http://www.taniarascia.com/getting-started-with-grunt-and-sass/)**
+
+### More
+
+* [Common Development Terms and Abbreviations](http://www.taniarascia.com/development-terms-abbreviations/)
 * [Google Maps APIs for Multiple Locations](http://www.taniarascia.com/google-maps-apis-for-multiple-locations/)
+
+**In Progress**
+* [Start Making Websites.com](http://startmakingwebsites.com/) - A Beginner's Guide to Web Development
+* [HTML Cheat Sheet](http://startmakingwebsites.com/html) - List of all commonly used HTML5 valid tags
