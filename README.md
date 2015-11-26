@@ -25,7 +25,7 @@ Web Development Guides and Tutorials
 
 ### Responsive Grids
 
-##### Flexbox Grid
+### Flexbox Grid
 
 * [Tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/)
 * [Demo](http://codepen.io/taniarascia/full/rOLEGe/)
@@ -41,6 +41,7 @@ Web Development Guides and Tutorials
   }
   .column { flex: 1 }
   .one-fourth { flex: 2.5 }
+  .one-third { flex: 3.3 }
   .half { flex: 5 }
 }
 ```
@@ -52,7 +53,7 @@ Web Development Guides and Tutorials
 </div>
 ```
 
-##### Float Grid
+### Float Grid
 
 * [Tutorial](http://www.taniarascia.com/you-dont-need-a-framework/)
 * [Demo](http://codepen.io/taniarascia/pen/GpGdyy)
