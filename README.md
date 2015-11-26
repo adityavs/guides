@@ -13,6 +13,9 @@
 **CSS Frameworks**
 * [What Bootstrap Is and How To Use It](#bootstrap)
 
+**Dev Environments**
+* [Local Server Environment (MAMP)[#local-server-environment-mamp]
+
 ---
 
 ### Full Screen Navigation Overlay
@@ -115,6 +118,8 @@ $('#nav-toggle').click(function () {
 
 A classic top navigation bar with dropdowns. The navigation links collapse into a hamburger icon toggle on mobile collapse.
 
+**[Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/) &bull; [Demo](http://codepen.io/taniarascia/full/dYvvYv/)**
+
 ```js
 $('nav ul li a:not(:only-child)').click(function (e) {
 	$(this).siblings('.nav-dropdown').toggle();
@@ -128,8 +133,6 @@ $('#nav-toggle').click(function () {
 	$('nav ul').slideToggle();
 });
 ```
-
-**[Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/) &bull; [Demo](http://codepen.io/taniarascia/full/dYvvYv/)**
 
 ###  Flexbox Grid
 
@@ -206,8 +209,8 @@ A simple, responsive grid made with CSS floats and a clearfix hack. This grid is
 
 ### Dev Environments
 
-* [Setting Up a Local Server Environment with MAMP](http://www.taniarascia.com/local-environment/)
-* [Setting Up Virtual Hosts](http://www.taniarascia.com/setting-up-virtual-hosts/)
+* [Local Server Environment (MAMP)](http://www.taniarascia.com/local-environment/)
+* [Virtual Hosts](http://www.taniarascia.com/setting-up-virtual-hosts/)
 
 ### Content Management System (CMS)
 
