@@ -28,12 +28,13 @@ Web Development Guides and Tutorials
 
 ### Dev Environments
 
-* [Setting Up a Local Server MAMP Environment](
+* [Setting Up a Local Server Environment with MAMP](http://www.taniarascia.com/local-environment/)
 * [Setting Up Virtual Hosts](http://www.taniarascia.com/setting-up-virtual-hosts/)
 
 ### CMS
 
 * [Developing a WordPress Theme from Scratch](http://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/)
+* [Migrating a WordPress Site to a Live Server](http://www.taniarascia.com/migrating-a-wordpress-site-to-a-live-server/)
 
 ### Git
 
