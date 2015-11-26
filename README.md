@@ -56,11 +56,6 @@ Web Development Guides and Tutorials
   content: " ";
   clear: both;
 }
-.container {
-  margin: 0 auto;
-  padding: 0 10px;
-  max-width: 1600px;
-}
 .one, .one-third, .two-thirds, .one-fourth, .half { width: 100%; }
 
 @media only screen and (min-width: 800px) {
