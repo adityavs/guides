@@ -47,12 +47,8 @@ Web Development Guides and Tutorials
 
 ```html
 <div class="row">
-  <div class="column">
-    50%
-  </div>
-  <div class="column">
-    50%
-  </div>
+  <div class="column">50%</div>
+  <div class="column">50%</div>
 </div>
 ```
 
