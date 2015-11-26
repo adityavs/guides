@@ -27,21 +27,8 @@ html, body { overflow-x: hidden; }
   left: 0;
   z-index: 2;
 }
-article {
-  max-width: 750px;
-  margin: 0 auto;
-  padding: 0 80px;
-}
 @media screen and (min-width: 800px) {
-  .position {
-    position: fixed;
-  }
-}
-
-main {
-  width: 100%;
-  position: absolute;
-  left: 0;
+  .position { position: fixed; }
 }
 aside {
   width: 250px;
@@ -50,26 +37,23 @@ aside {
   top: 0;
   left: -250px;
 }
-
-.show-nav aside,
-.show-nav .position,
-.show-nav main {
-  transform: translateX(250px);
+main {
+  width: 100%;
+  position: absolute;
+  left: 0;
 }
-.show-nav .position {
-  position: fixed;
+article {
+  padding: 0 80px;
 }
+.show-nav aside, .show-nav .position, .show-nav main { transform: translateX(250px); }
+.show-nav .position { position: fixed; }
 ```
 
 ```html
-<aside>
-  Navigation
-</aside>
+<aside> Navigation </aside>
 <a id="nav-toggle" href="#!" class="position">Toggle</a>
 <main>
-  <article>
-  Main content
-  </article>
+  <article> Main content </article>
 </main>
 ```
 
