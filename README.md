@@ -10,7 +10,6 @@ Web Development Guides and Tutorials
 ### Navigation
 
 #### Off Canvas Navigation
-
 * [Tutorial](http://www.taniarascia.com/off-canvas-navigation/)
 * [Demo](http://codepen.io/taniarascia/full/QjBwpB/)
 
