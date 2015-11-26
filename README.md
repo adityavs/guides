@@ -84,12 +84,12 @@
 ### Fundamentals of Responsive Design
 * [Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)
 
-* **Breakpoints** 
+**Breakpoints** 
    `@media screen and (min-width: 800px) { }`
-* **Breakpoints** 
+**Breakpoints** 
    `@media screen and (min-width: 800px) { }`
-* **Structure** – a grid system
-* **Navigation** – collapsible navigation
+**Structure** – a grid system
+**Navigation** – collapsible navigation
 
 
 ### Bootstrap
