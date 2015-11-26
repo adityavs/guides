@@ -127,7 +127,7 @@ $('html').click(function () {
 $('#nav-toggle').click(function () {
 	$('nav ul').slideToggle();
 });
-``
+```
 
 **[Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/) &bull; [Demo](http://codepen.io/taniarascia/full/dYvvYv/)**
 
