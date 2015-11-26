@@ -1,7 +1,7 @@
 Web Development Guides and Tutorials
 ========
 
-* [Flexbox Grid][] 
+*  [Flexbox Grid](#flexbox-grid)
 
 
 
@@ -21,7 +21,7 @@ Web Development Guides and Tutorials
 
 ### Responsive Grids
 
-### Flexbox Grid
+###  Flexbox Grid
 
 * [Tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/)
 * [Demo](http://codepen.io/taniarascia/full/rOLEGe/)
