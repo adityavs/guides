@@ -278,7 +278,7 @@ By the end of this article you will be able to set up Grunt and use it to compil
 
 Use Jekyll, the static site generator, to create a dynamically generated static website, and push it to GitHub pages.
 
-**[Making a Static Website with Jekyll](http://www.taniarascia.com/making-a-static-website-with-jekyll/)**
+**[Making a Static Website with Jekyll](http://www.taniarascia.com/make-a-static-website-with-jekyll/)**
 
 ### More
 
