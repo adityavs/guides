@@ -18,6 +18,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Migrating WordPress](#migrating-wordpress)
 * [Getting Started with Git](#getting-started-with-git)
 * [Using Grunt and Sass](#using-grunt-and-sass)
+* [Making a Static Website with Jekyll](#using-jekyll)
 
 **[More](#more)**
 
@@ -272,6 +273,12 @@ Understand how to use Node.js, Node Package Manager (npm), Grunt, Sass, and comm
 By the end of this article you will be able to set up Grunt and use it to compile SCSS into CSS which is minified and autoprefixed, as well as minifying and linting JavaScript code.
 
 **[Getting Started with Grunt and Sass](http://www.taniarascia.com/getting-started-with-grunt-and-sass/)**
+
+### Using Jekyll
+
+Use Jekyll, the static site generator, to create a dynamically generated static website, and push it to GitHub pages.
+
+**[Making a Static Website with Jekyll](http://www.taniarascia.com/making-a-static-website-with-jekyll/)**
 
 ### More
 
