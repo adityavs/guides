@@ -19,6 +19,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Getting Started with Git](#getting-started-with-git)
 * [Using Grunt and Sass](#using-grunt-and-sass)
 * [Making a Static Website with Jekyll](#using-jekyll)
+* [Installing, Using and Understanding Sass](#learn-sass-now)
 
 **[More](#more)**
 
@@ -279,6 +280,12 @@ By the end of this article you will be able to set up Grunt and use it to compil
 Use Jekyll, the static site generator, to create a dynamically generated static website, and push it to GitHub pages.
 
 **[Making a Static Website with Jekyll](http://www.taniarascia.com/make-a-static-website-with-jekyll/)**
+
+### Learn Sass Now
+
+Sass is a CSS preproccessor that can make writing CSS faster and more efficient. You might have heard of Sass, but not know how to set it up or integrate it with your projects. We’ll go over all of that in this tutorial for Mac and Windows.
+
+**[Installing, Using, and Understanding Sass](http://www.taniarascia.com/learn-sass-now/)**
 
 ### More
 
