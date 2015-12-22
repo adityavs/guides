@@ -2,7 +2,8 @@
 
 Guides, tutorials, demos and snippets for front end and back end web development.
 
-**Design**
+##### Design
+
 * [Full Screen Navigation Overlay](#full-screen-navigation-overlay) 
 * [Off Canvas Navigation](#off-canvas-navigation) 
 * [Responsive Dropdown Navigation Bar](#responsive-dropdown-navigation-bar)
@@ -11,7 +12,8 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Fundamentals of Responsive Design](#fundamentals-of-responsive-design)
 * [What Bootstrap Is and How To Use It](#bootstrap)
 
-**Development**
+##### Development
+
 * [Local Server Environment (MAMP)](#local-server-environment---mamp)
 * [Virtual Hosts](#virtual-hosts)
 * [Developing a WordPress Theme from Scratch](#developing-a-wordpress-theme-from-scratch)
@@ -20,6 +22,10 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Using Grunt and Sass](#using-grunt-and-sass)
 * [Making a Static Website with Jekyll](#using-jekyll)
 * [Installing, Using and Understanding Sass](#learn-sass-now)
+
+##### Amazon Web Services
+
+* [Setting Up a Virtual Server (EC2 Instance)](#setting-up-ec2-with-aws)
 
 **[More](#more)**
 
@@ -286,6 +292,12 @@ Use Jekyll, the static site generator, to create a dynamically generated static 
 Sass is a CSS preproccessor that can make writing CSS faster and more efficient. You might have heard of Sass, but not know how to set it up or integrate it with your projects. We’ll go over all of that in this tutorial for Mac and Windows.
 
 **[Installing, Using, and Understanding Sass](http://www.taniarascia.com/learn-sass-now/)**
+
+### Setting Up EC2 with AWS
+
+Amazon Web Services, or AWS, is a popular platform for deploying cloud based apps. Learn how to set up a virtual server in the cloud with AWS EC2 instances.
+
+**[Getting Started with AWS - Setting Up a Virtual Server](http://www.taniarascia.com/getting-started-with-aws-setting-up-a-virtual-server/)**
 
 ### More
 
