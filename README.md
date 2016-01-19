@@ -1,5 +1,7 @@
 ## Web Development Guides, Tutorials and Snippets
 
+*Update 1/18/16 - Added WordPress tutorial part two*
+
 Guides, tutorials, demos and snippets for front end and back end web development.
 
 ##### Design
@@ -17,6 +19,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Local Server Environment (MAMP)](#local-server-environment---mamp)
 * [Virtual Hosts](#virtual-hosts)
 * [Developing a WordPress Theme from Scratch](#developing-a-wordpress-theme-from-scratch)
+* [Developing a WordPress Theme from Scratch (Part 2)](#developing-a-wordpress-theme-from-scratch-part-2)
 * [Migrating WordPress](#migrating-wordpress)
 * [Getting Started with Git](#getting-started-with-git)
 * [Using Grunt and Sass](#using-grunt-and-sass)
@@ -182,7 +185,7 @@ A simple, responsive grid made with flexbox. This grid is based on percentages a
 A simple, responsive grid made with CSS floats and a clearfix hack. This grid is based on percentages rather than the traditional 12-column grid. You can add as many classes as you want columns.
 
 **[Tutorial](http://www.taniarascia.com/you-dont-need-a-framework/) &bull; [Demo](http://codepen.io/taniarascia/pen/GpGdyy)**
-
+d
 ```css
 .row::before, .row::after {
   display: table;
@@ -258,6 +261,20 @@ You know HTML, but your potential clients don't. If you intend to make a website
 This guide will show you how to take your HTML site and turn it into a WordPress theme. It assumes no prior knowledge of PHP or WordPress.
 
 **[Developing a WordPress Theme from Scratch](http://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/)**
+
+### Developing a WordPress Theme from Scratch Part 2
+
+Expanding on the original article, you will learn how to do the following:
+
+* Create individual post pages – single.php
+* Add pagination
+* Include comments
+* Learn how to use functions.php
+* Properly enqueue stylesheets and scripts
+* Create global custom fields
+* Create custom post types
+
+**[Developing a WordPress Theme from Scratch Part 2](http://www.taniarascia.com/wordpress-from-scratch-part-two/)**
 
 ### Migrating WordPress
 
