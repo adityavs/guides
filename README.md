@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 1/18/16 - Added WordPress tutorial part two*
+*Update 1/29/16 - Added HTTPS encryption*
 
 Guides, tutorials, demos and snippets for front end and back end web development.
 
