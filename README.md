@@ -1,10 +1,10 @@
-## Web Development Guides, Tutorials and Snippets
+# Web Development Guides, Tutorials and Snippets
 
 *Update 1/18/16 - Added WordPress tutorial part two*
 
 Guides, tutorials, demos and snippets for front end and back end web development.
 
-##### Design
+## Design
 
 * [Full Screen Navigation Overlay](#full-screen-navigation-overlay) 
 * [Off Canvas Navigation](#off-canvas-navigation) 
@@ -14,7 +14,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Fundamentals of Responsive Design](#fundamentals-of-responsive-design)
 * [What Bootstrap Is and How To Use It](#bootstrap)
 
-##### Development
+## Development
 
 * [Local Server Environment (MAMP)](#local-server-environment---mamp)
 * [Virtual Hosts](#virtual-hosts)
@@ -26,9 +26,10 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Making a Static Website with Jekyll](#using-jekyll)
 * [Installing, Using and Understanding Sass](#learn-sass-now)
 
-##### Amazon Web Services
+## Systems
 
 * [Setting Up a Virtual Server (EC2 Instance)](#setting-up-ec2-with-aws)
+* [Enable HTTPS with an SSL/TLS Certificate on Apache](#enable-https-with-an-ssl-tls-certificate)
 
 **[More](#more)**
 
@@ -39,7 +40,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 
 A style of navigation that triggers a full screen overlay. This example utilizes flexbox.
 
-**[Tutorial](http://www.taniarascia.com/full-screen-navigation-overlay/) &bull; [Demo](http://codepen.io/taniarascia/full/yYrXRG/)**
+**[Tutorial](https://www.taniarascia.com/full-screen-navigation-overlay/) &bull; [Demo](http://codepen.io/taniarascia/full/yYrXRG/)**
 
 ```css
 aside {
@@ -79,7 +80,7 @@ aside {
 
 Slide out navigation that is hidden off canvas until triggered. Inspired by the [Lanyon/Poole theme for Jekyll](http://lanyon.getpoole.com/).
 
-**[Tutorial](http://www.taniarascia.com/off-canvas-navigation/) &bull; [Demo](http://codepen.io/taniarascia/full/QjBwpB/)**
+**[Tutorial](https://www.taniarascia.com/off-canvas-navigation/) &bull; [Demo](http://codepen.io/taniarascia/full/QjBwpB/)**
 
 ```css
 html, body { overflow-x: hidden; }
@@ -135,7 +136,7 @@ $('#nav-toggle').click(function () {
 
 A classic top navigation bar with dropdowns. The navigation links collapse into a hamburger icon toggle on mobile collapse.
 
-**[Tutorial](http://www.taniarascia.com/responsive-dropdown-navigation-bar/) &bull; [Demo](http://codepen.io/taniarascia/full/dYvvYv/)**
+**[Tutorial](https://www.taniarascia.com/responsive-dropdown-navigation-bar/) &bull; [Demo](http://codepen.io/taniarascia/full/dYvvYv/)**
 
 ```js
 $('nav ul li a:not(:only-child)').click(function (e) {
@@ -155,7 +156,7 @@ $('#nav-toggle').click(function () {
 
 A simple, responsive grid made with flexbox. This grid is based on percentages and is infinitely expandable.
 
-**[Tutorial](http://www.taniarascia.com/easiest-flex-grid-ever/) &bull; [Demo](http://codepen.io/taniarascia/full/rOLEGe/)**
+**[Tutorial](https://www.taniarascia.com/easiest-flex-grid-ever/) &bull; [Demo](http://codepen.io/taniarascia/full/rOLEGe/)**
 
 ```css
 .column { flex-basis: 100% }
@@ -184,7 +185,7 @@ A simple, responsive grid made with flexbox. This grid is based on percentages a
 
 A simple, responsive grid made with CSS floats and a clearfix hack. This grid is based on percentages rather than the traditional 12-column grid. You can add as many classes as you want columns.
 
-**[Tutorial](http://www.taniarascia.com/you-dont-need-a-framework/) &bull; [Demo](http://codepen.io/taniarascia/pen/GpGdyy)**
+**[Tutorial](https://www.taniarascia.com/you-dont-need-a-framework/) &bull; [Demo](http://codepen.io/taniarascia/pen/GpGdyy)**
 d
 ```css
 .row::before, .row::after {
@@ -214,7 +215,7 @@ d
 
 Before integrating third party frameworks into your websites, learn how to build your own simple framework and understand responsive breakpoints, grids, and navigation styles.
 
-**[Understanding the Fundamentals of Responsive Design](http://www.taniarascia.com/you-dont-need-a-framework/)**
+**[Understanding the Fundamentals of Responsive Design](https://www.taniarascia.com/you-dont-need-a-framework/)**
 
 1. **Foundation** - `<meta name="viewport" content="width=device-width, initial-scale=1">`
 1. **Breakpoints** - `@media screen and (min-width: 800px) { }`
@@ -225,7 +226,7 @@ Before integrating third party frameworks into your websites, learn how to build
 
 Bootstrap is one of the most popular CSS frameworks. Learn what a framework is, how to get started with Bootstrap, and how to use the documentation to build a responsive frame upon which you can add custom styles.
 
-**[What Bootstrap Is and How To Use It](http://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)**
+**[What Bootstrap Is and How To Use It](https://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/)**
 
 * What is Bootstrap?
 * Why is a framework important?
@@ -236,7 +237,7 @@ Bootstrap is one of the most popular CSS frameworks. Learn what a framework is, 
 
 Setting up a local environment is necessary In order to begin working in the back end with languages such as PHP and MySQL. Learn how to set up a LAMP/MAMP/WAMP stack.
 
-**[Setting Up a Local Server Environment with MAMP](http://www.taniarascia.com/local-environment/)**
+**[Setting Up a Local Server Environment with MAMP](https://www.taniarascia.com/local-environment/)**
 
 * Linux/Mac/Windows
 * Apache
@@ -247,7 +248,7 @@ Setting up a local environment is necessary In order to begin working in the bac
 
 If you want to set up more than one websites on a local server, you can use virtual hosts to work on as many sites as you want.
 
-**[Setting Up Virtual Hosts](http://www.taniarascia.com/setting-up-virtual-hosts/)**
+**[Setting Up Virtual Hosts](https://www.taniarascia.com/setting-up-virtual-hosts/)**
 
 * Editing the Apache configuration file - `httpd.conf`
 * Editing the hosts files - `hosts`
@@ -260,7 +261,7 @@ You know HTML, but your potential clients don't. If you intend to make a website
 
 This guide will show you how to take your HTML site and turn it into a WordPress theme. It assumes no prior knowledge of PHP or WordPress.
 
-**[Developing a WordPress Theme from Scratch](http://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/)**
+**[Developing a WordPress Theme from Scratch](https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/)**
 
 ### Developing a WordPress Theme from Scratch Part 2
 
@@ -274,13 +275,13 @@ Expanding on the original article, you will learn how to do the following:
 * Create global custom fields
 * Create custom post types
 
-**[Developing a WordPress Theme from Scratch Part 2](http://www.taniarascia.com/wordpress-from-scratch-part-two/)**
+**[Developing a WordPress Theme from Scratch Part 2](https://www.taniarascia.com/wordpress-from-scratch-part-two/)**
 
 ### Migrating WordPress
 
 After creating a WordPress theme in a local environment, there are a few necessary steps to take to ensure that the site doesn't break when migrating to a live server.
 
-**[Migrating a WordPress Site to a Live Server](http://www.taniarascia.com/migrating-a-wordpress-site-to-a-live-server/)**
+**[Migrating a WordPress Site to a Live Server](https://www.taniarascia.com/migrating-a-wordpress-site-to-a-live-server/)**
 
 ### Getting Started with Git
 
@@ -288,7 +289,7 @@ Links to Git repositories are everywhere. Learn how to use the command line to c
 
 This guide assumes no prior knowledge with or familiarity of Git, GitHub, version control software, or using command lines.
 
-**[Getting Started with Git](http://www.taniarascia.com/getting-started-with-git/)**
+**[Getting Started with Git](https://www.taniarascia.com/getting-started-with-git/)**
 
 ### Using Grunt and Sass
 
@@ -296,30 +297,36 @@ Understand how to use Node.js, Node Package Manager (npm), Grunt, Sass, and comm
 
 By the end of this article you will be able to set up Grunt and use it to compile SCSS into CSS which is minified and autoprefixed, as well as minifying and linting JavaScript code.
 
-**[Getting Started with Grunt and Sass](http://www.taniarascia.com/getting-started-with-grunt-and-sass/)**
+**[Getting Started with Grunt and Sass](https://www.taniarascia.com/getting-started-with-grunt-and-sass/)**
 
 ### Using Jekyll
 
 Use Jekyll, the static site generator, to create a dynamically generated static website, and push it to GitHub pages.
 
-**[Making a Static Website with Jekyll](http://www.taniarascia.com/make-a-static-website-with-jekyll/)**
+**[Making a Static Website with Jekyll](https://www.taniarascia.com/make-a-static-website-with-jekyll/)**
 
 ### Learn Sass Now
 
 Sass is a CSS preproccessor that can make writing CSS faster and more efficient. You might have heard of Sass, but not know how to set it up or integrate it with your projects. We’ll go over all of that in this tutorial for Mac and Windows.
 
-**[Installing, Using, and Understanding Sass](http://www.taniarascia.com/learn-sass-now/)**
+**[Installing, Using, and Understanding Sass](https://www.taniarascia.com/learn-sass-now/)**
 
 ### Setting Up EC2 with AWS
 
 Amazon Web Services, or AWS, is a popular platform for deploying cloud based apps. Learn how to set up a virtual server in the cloud with AWS EC2 instances.
 
-**[Getting Started with AWS - Setting Up a Virtual Server](http://www.taniarascia.com/getting-started-with-aws-setting-up-a-virtual-server/)**
+**[Getting Started with AWS - Setting Up a Virtual Server](https://www.taniarascia.com/getting-started-with-aws-setting-up-a-virtual-server/)**
+
+### Enable HTTPS with an SSL/TLS Certificate
+
+Learn how to encrypt your server by enabling HTTPS on your website with a TLS/SSL certificate. Also includes information on how to properly hook up HTTPS with WordPress.
+
+[Obtain a TLS/SSL Certificate and Enable HTTPS Encryption](https://www.taniarascia.com/https-ssl-tls-certificate-how-to/)
 
 ### More
 
-* [Common Development Terms and Abbreviations](http://www.taniarascia.com/development-terms-abbreviations/)
-* [Google Maps APIs for Multiple Locations](http://www.taniarascia.com/google-maps-apis-for-multiple-locations/)
+* [Common Development Terms and Abbreviations](https://www.taniarascia.com/development-terms-abbreviations/)
+* [Google Maps APIs for Multiple Locations](https://www.taniarascia.com/google-maps-apis-for-multiple-locations/)
 
 **In Progress**
 * [Start Making Websites.com](http://startmakingwebsites.com/) - A Beginner's Guide to Web Development
