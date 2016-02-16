@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 1/29/16 - Added HTTPS encryption*
+*Update 2/16/16 - Added Gulp workflow tutorial*
 
 Guides, tutorials, demos and snippets for front end and back end web development.
 
@@ -25,6 +25,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Using Grunt and Sass](#using-grunt-and-sass)
 * [Making a Static Website with Jekyll](#using-jekyll)
 * [Installing, Using and Understanding Sass](#learn-sass-now)
+* [Guide to Installing and Using Gulp](#guide-to-installing-and-using-gulp)
 
 ## Systems
 
@@ -293,7 +294,7 @@ This guide assumes no prior knowledge with or familiarity of Git, GitHub, versio
 
 ### Using Grunt and Sass
 
-Understand how to use Node.js, Node Package Manager (npm), Grunt, Sass, and command line can be daunting. This guide assumes no prior knowledge of using the command line, installing Node.js, using npm, Grunt or Sass, and details every step along the way to ensure that Grunt it up and running. 
+Understanding how to use Node.js, Node Package Manager (npm), Grunt, Sass, and command line can be daunting. This guide assumes no prior knowledge of using the command line, installing Node.js, using npm, Grunt or Sass, and details every step along the way to ensure that Grunt it up and running. 
 
 By the end of this article you will be able to set up Grunt and use it to compile SCSS into CSS which is minified and autoprefixed, as well as minifying and linting JavaScript code.
 
@@ -310,6 +311,12 @@ Use Jekyll, the static site generator, to create a dynamically generated static 
 Sass is a CSS preproccessor that can make writing CSS faster and more efficient. You might have heard of Sass, but not know how to set it up or integrate it with your projects. We’ll go over all of that in this tutorial for Mac and Windows.
 
 **[Installing, Using, and Understanding Sass](https://www.taniarascia.com/learn-sass-now/)**
+
+### Guide to Installing and Using Gulp
+
+Gulp is a task runner which makes it easy to run redundant tasks without thinking about them. In the case of this article, we'll learn all the necessary prerequisites to installing Gulp, and create a task which compiles SCSS to CSS, minifies, and adds vendor prefixes.
+
+**[Installing and Using Gulp for Front End Web Development](https://www.taniarascia.com/getting-started-with-gulp/)
 
 ### Setting Up EC2 with AWS
 
