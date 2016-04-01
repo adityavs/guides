@@ -32,6 +32,10 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Setting Up a Virtual Server (EC2 Instance)](#setting-up-ec2-with-aws)
 * [Enable HTTPS with an SSL/TLS Certificate on Apache](#enable-https-with-an-ssltls-certificate)
 
+## JavaScript Day by Day
+
+* [JavaScript Day One: Comments, Variables, Data Types, and Hello, World!](https://www.taniarascia.com/javascript-day-one/)
+
 **[More](#more)**
 
 
