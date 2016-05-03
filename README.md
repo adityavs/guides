@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 2/16/16 - Added Gulp workflow tutorial*
+*Update 5/3/16 - Added Parallax Tutorial*
 
 Guides, tutorials, demos and snippets for front end and back end web development.
 
@@ -13,6 +13,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Float Grid](#float-grid)
 * [Fundamentals of Responsive Design](#fundamentals-of-responsive-design)
 * [What Bootstrap Is and How To Use It](#bootstrap)
+* [Parallax Scroll Effect](#parallax-scroll-effect)
 
 ## Development
 
@@ -237,6 +238,12 @@ Bootstrap is one of the most popular CSS frameworks. Learn what a framework is, 
 * Why is a framework important?
 * Building a basic Bootstrap template
 * Applying custom styles
+
+### Parallax Scroll Effect
+
+Parallax scrolling, an effect that allows sections of a website to scroll at different speeds, is an effect that has gone through various stages of popularity over the last few years. I’m not going to debate the usefulness or trendiness of parallax scrolling here, I’m simply going to show you how to do it.
+
+**[Parallax Scroll Effect](https://www.taniarascia.com/parallax-scroll-effect/)**
 
 ### Local Server Environment - MAMP
 
