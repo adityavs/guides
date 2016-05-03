@@ -42,7 +42,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 
 ---
 
-### Full Screen Navigation Overlay
+## Full Screen Navigation Overlay
 
 A style of navigation that triggers a full screen overlay. This example utilizes flexbox.
 
@@ -82,7 +82,7 @@ aside {
 ```
 
 
-### Off Canvas Navigation
+## Off Canvas Navigation
 
 Slide out navigation that is hidden off canvas until triggered. Inspired by the [Lanyon/Poole theme for Jekyll](http://lanyon.getpoole.com/).
 
@@ -138,7 +138,7 @@ $('#nav-toggle').click(function () {
 });
 ```
 
-### Responsive Dropdown Navigation Bar
+## Responsive Dropdown Navigation Bar
 
 A classic top navigation bar with dropdowns. The navigation links collapse into a hamburger icon toggle on mobile collapse.
 
@@ -187,7 +187,7 @@ A simple, responsive grid made with flexbox. This grid is based on percentages a
 </div>
 ```
 
-### Float Grid
+## Float Grid
 
 A simple, responsive grid made with CSS floats and a clearfix hack. This grid is based on percentages rather than the traditional 12-column grid. You can add as many classes as you want columns.
 
@@ -217,7 +217,7 @@ d
 </div>
 ```
 
-### Fundamentals of Responsive Design
+## Fundamentals of Responsive Design
 
 Before integrating third party frameworks into your websites, learn how to build your own simple framework and understand responsive breakpoints, grids, and navigation styles.
 
@@ -228,7 +228,7 @@ Before integrating third party frameworks into your websites, learn how to build
 1. **Structure** - a grid system
 1. **Navigation** - collapsible navigation
 
-### Bootstrap
+## Bootstrap
 
 Bootstrap is one of the most popular CSS frameworks. Learn what a framework is, how to get started with Bootstrap, and how to use the documentation to build a responsive frame upon which you can add custom styles.
 
@@ -239,13 +239,13 @@ Bootstrap is one of the most popular CSS frameworks. Learn what a framework is, 
 * Building a basic Bootstrap template
 * Applying custom styles
 
-### Parallax Scroll Effect
+## Parallax Scroll Effect
 
 Parallax scrolling, an effect that allows sections of a website to scroll at different speeds, is an effect that has gone through various stages of popularity over the last few years. I’m not going to debate the usefulness or trendiness of parallax scrolling here, I’m simply going to show you how to do it.
 
 **[Parallax Scroll Effect](https://www.taniarascia.com/parallax-scroll-effect/)**
 
-### Local Server Environment - MAMP
+## Local Server Environment - MAMP
 
 Setting up a local environment is necessary In order to begin working in the back end with languages such as PHP and MySQL. Learn how to set up a LAMP/MAMP/WAMP stack.
 
@@ -256,7 +256,7 @@ Setting up a local environment is necessary In order to begin working in the bac
 * MySQL
 * PHP
 
-### Virtual Hosts
+## Virtual Hosts
 
 If you want to set up more than one websites on a local server, you can use virtual hosts to work on as many sites as you want.
 
@@ -267,7 +267,7 @@ If you want to set up more than one websites on a local server, you can use virt
 * Setting the correct ports
 
 
-### Developing a WordPress Theme from Scratch
+## Developing a WordPress Theme from Scratch
 
 You know HTML, but your potential clients don't. If you intend to make a website and pass it on to a user so that they might edit it by themselves in the future, a **content management system** (CMS) will be necessary. WordPress is the most popular CMS, and it's built on PHP.
 
@@ -275,7 +275,7 @@ This guide will show you how to take your HTML site and turn it into a WordPress
 
 **[Developing a WordPress Theme from Scratch](https://www.taniarascia.com/developing-a-wordpress-theme-from-scratch/)**
 
-### Developing a WordPress Theme from Scratch Part 2
+## Developing a WordPress Theme from Scratch Part 2
 
 Expanding on the original article, you will learn how to do the following:
 
@@ -289,13 +289,13 @@ Expanding on the original article, you will learn how to do the following:
 
 **[Developing a WordPress Theme from Scratch Part 2](https://www.taniarascia.com/wordpress-from-scratch-part-two/)**
 
-### Migrating WordPress
+## Migrating WordPress
 
 After creating a WordPress theme in a local environment, there are a few necessary steps to take to ensure that the site doesn't break when migrating to a live server.
 
 **[Migrating a WordPress Site to a Live Server](https://www.taniarascia.com/migrating-a-wordpress-site-to-a-live-server/)**
 
-### Getting Started with Git
+###Getting Started with Git
 
 Links to Git repositories are everywhere. Learn how to use the command line to create a local project, upload it to a Git repository host (such as GitHub), and upload it onto a live server, bypassing FTP.
 
@@ -303,7 +303,7 @@ This guide assumes no prior knowledge with or familiarity of Git, GitHub, versio
 
 **[Getting Started with Git](https://www.taniarascia.com/getting-started-with-git/)**
 
-### Using Grunt and Sass
+## Using Grunt and Sass
 
 Understanding how to use Node.js, Node Package Manager (npm), Grunt, Sass, and command line can be daunting. This guide assumes no prior knowledge of using the command line, installing Node.js, using npm, Grunt or Sass, and details every step along the way to ensure that Grunt it up and running. 
 
@@ -311,37 +311,37 @@ By the end of this article you will be able to set up Grunt and use it to compil
 
 **[Getting Started with Grunt and Sass](https://www.taniarascia.com/getting-started-with-grunt-and-sass/)**
 
-### Using Jekyll
+## Using Jekyll
 
 Use Jekyll, the static site generator, to create a dynamically generated static website, and push it to GitHub pages.
 
 **[Making a Static Website with Jekyll](https://www.taniarascia.com/make-a-static-website-with-jekyll/)**
 
-### Learn Sass Now
+## Learn Sass Now
 
 Sass is a CSS preproccessor that can make writing CSS faster and more efficient. You might have heard of Sass, but not know how to set it up or integrate it with your projects. We’ll go over all of that in this tutorial for Mac and Windows.
 
 **[Installing, Using, and Understanding Sass](https://www.taniarascia.com/learn-sass-now/)**
 
-### Guide to Installing and Using Gulp
+## Guide to Installing and Using Gulp
 
 Gulp is a task runner which makes it easy to run redundant tasks without thinking about them. In the case of this article, we'll learn all the necessary prerequisites to installing Gulp, and create a task which compiles SCSS to CSS, minifies, and adds vendor prefixes.
 
-**[Installing and Using Gulp for Front End Web Development](https://www.taniarascia.com/getting-started-with-gulp/)
+**[Installing and Using Gulp for Front End Web Development](https://www.taniarascia.com/getting-started-with-gulp/)**
 
-### Setting Up EC2 with AWS
+## Setting Up EC2 with AWS
 
 Amazon Web Services, or AWS, is a popular platform for deploying cloud based apps. Learn how to set up a virtual server in the cloud with AWS EC2 instances.
 
 **[Getting Started with AWS - Setting Up a Virtual Server](https://www.taniarascia.com/getting-started-with-aws-setting-up-a-virtual-server/)**
 
-### Enable HTTPS with an SSL/TLS Certificate
+## Enable HTTPS with an SSL/TLS Certificate
 
 Learn how to encrypt your server by enabling HTTPS on your website with a TLS/SSL certificate. Also includes information on how to properly hook up HTTPS with WordPress.
 
 [Obtain a TLS/SSL Certificate and Enable HTTPS Encryption](https://www.taniarascia.com/https-ssl-tls-certificate-how-to/)
 
-### More
+## More
 
 * [Common Development Terms and Abbreviations](https://www.taniarascia.com/development-terms-abbreviations/)
 * [Google Maps APIs for Multiple Locations](https://www.taniarascia.com/google-maps-apis-for-multiple-locations/)
