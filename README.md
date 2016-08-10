@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 5/3/16 - Added Parallax Tutorial*
+*Update 8/10/16 - WordPress*
 
 Guides, tutorials, demos and snippets for front end and back end web development.
 
@@ -21,6 +21,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Virtual Hosts](#virtual-hosts)
 * [Developing a WordPress Theme from Scratch](#developing-a-wordpress-theme-from-scratch)
 * [Developing a WordPress Theme from Scratch (Part 2)](#developing-a-wordpress-theme-from-scratch-part-2)
+* [Developing a WordPress Theme from Scratch (Part 3)](#developing-a-wordpress-theme-from-scratch-part-3)
 * [Migrating WordPress](#migrating-wordpress)
 * [Getting Started with Git](#getting-started-with-git)
 * [Using Grunt and Sass](#using-grunt-and-sass)
@@ -288,6 +289,21 @@ Expanding on the original article, you will learn how to do the following:
 * Create custom post types
 
 **[Developing a WordPress Theme from Scratch Part 2](https://www.taniarascia.com/wordpress-from-scratch-part-two/)**
+
+## Developing a WordPress Theme from Scratch Part 3
+
+More advanced concepts are covered:
+
+* Create a custom post type.
+* Add a custom meta box.
+* Create the following custom fields:
+* Input text field
+* Textarea
+* Checkbox
+* Select Menu
+* Image (and image upload)
+
+**[Developing a WordPress Theme from Scratch Part 3](https://www.taniarascia.com/wordpress-part-three-custom-fields-and-metaboxes/)**
 
 ## Migrating WordPress
 
