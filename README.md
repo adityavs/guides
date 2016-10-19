@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 10/19/2016 - Added Linux cron job*
+*Update 10/19/2016 - Added Linux cron job and second JavaScript tutorial.*
 
 Guides, tutorials, demos and snippets for front end and back end web development.
 
@@ -357,13 +357,13 @@ Amazon Web Services, or AWS, is a popular platform for deploying cloud based app
 
 Learn how to encrypt your server by enabling HTTPS on your website with a TLS/SSL certificate. Also includes information on how to properly hook up HTTPS with WordPress.
 
-[Obtain a TLS/SSL Certificate and Enable HTTPS Encryption](https://www.taniarascia.com/https-ssl-tls-certificate-how-to/)
+**[Obtain a TLS/SSL Certificate and Enable HTTPS Encryption](https://www.taniarascia.com/https-ssl-tls-certificate-how-to/)**
 
 ## Setting Up a Basic Cron Job in Linux
 
 Learn how to send out an email in PHP and set up a scheduled task to send out that email.
 
-[Setting Up a Basic Cron Job in Linux](https://www.taniarascia.com/setting-up-a-basic-cron-job-in-linux/)
+**[Setting Up a Basic Cron Job in Linux](https://www.taniarascia.com/setting-up-a-basic-cron-job-in-linux/)**
 
 ## More
 
