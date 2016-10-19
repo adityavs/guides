@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 8/10/16 - WordPress*
+*Update 10/19/2016 - Added Linux cron job*
 
 Guides, tutorials, demos and snippets for front end and back end web development.
 
@@ -17,7 +17,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 
 ## Development
 
-* [Local Server Environment (MAMP)](#local-server-environment---mamp)
+* [Setting Up a Local Server Environment (MAMP)](#local-server-environment---mamp)
 * [Virtual Hosts](#virtual-hosts)
 * [Developing a WordPress Theme from Scratch](#developing-a-wordpress-theme-from-scratch)
 * [Developing a WordPress Theme from Scratch (Part 2)](#developing-a-wordpress-theme-from-scratch-part-2)
@@ -33,10 +33,12 @@ Guides, tutorials, demos and snippets for front end and back end web development
 
 * [Setting Up a Virtual Server (EC2 Instance)](#setting-up-ec2-with-aws)
 * [Enable HTTPS with an SSL/TLS Certificate on Apache](#enable-https-with-an-ssltls-certificate)
+* [Setting Up a Basic Cron Job in Linux](#setting-up-a-cron-job)
 
 ## JavaScript Day by Day
 
 * [JavaScript Day One: Comments, Variables, Data Types, and Hello, World!](https://www.taniarascia.com/javascript-day-one/)
+* [JavaScript Day Two: Comparisons, Math, and Logic](https://www.taniarascia.com/javascript-day-two/)
 
 **[More](#more)**
 
@@ -294,8 +296,8 @@ Expanding on the original article, you will learn how to do the following:
 
 More advanced concepts are covered:
 
-* Create a custom post type.
-* Add a custom meta box.
+* Create a custom post type
+* Add a custom meta box
 * Create the following custom fields:
 * Input text field
 * Textarea
@@ -357,11 +359,13 @@ Learn how to encrypt your server by enabling HTTPS on your website with a TLS/SS
 
 [Obtain a TLS/SSL Certificate and Enable HTTPS Encryption](https://www.taniarascia.com/https-ssl-tls-certificate-how-to/)
 
+## Setting Up a Basic Cron Job in Linux
+
+Learn how to send out an email in PHP and set up a scheduled task to send out that email.
+
+[Setting Up a Basic Cron Job in Linux](https://www.taniarascia.com/setting-up-a-basic-cron-job-in-linux/)
+
 ## More
 
 * [Common Development Terms and Abbreviations](https://www.taniarascia.com/development-terms-abbreviations/)
 * [Google Maps APIs for Multiple Locations](https://www.taniarascia.com/google-maps-apis-for-multiple-locations/)
-
-**In Progress**
-* [Start Making Websites.com](http://startmakingwebsites.com/) - A Beginner's Guide to Web Development
-* [HTML Cheat Sheet](http://startmakingwebsites.com/html) - List of all commonly used HTML5 valid tags
