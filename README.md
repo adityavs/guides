@@ -1,8 +1,8 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 10/19/2016 - Added Linux cron job and second JavaScript tutorial.*
+*Update 11/8/2016 - Added Web UI components article.*
 
-Guides, tutorials, demos and snippets for front end and back end web development.
+Guides, tutorials, demos and snippets for front and back end web development.
 
 ## Design
 
@@ -14,6 +14,7 @@ Guides, tutorials, demos and snippets for front end and back end web development
 * [Fundamentals of Responsive Design](#fundamentals-of-responsive-design)
 * [What Bootstrap Is and How To Use It](#bootstrap)
 * [Parallax Scroll Effect](#parallax-scroll-effect)
+* [Styling Web UI Components from Scratch: Buttons & Forms](#styling-web-ui-components-from-scratch-buttons-and-forms)
 
 ## Development
 
@@ -361,9 +362,15 @@ Learn how to encrypt your server by enabling HTTPS on your website with a TLS/SS
 
 ## Setting Up a Basic Cron Job in Linux
 
-Learn how to send out an email in PHP and set up a scheduled task to send out that email.
+Learn how to send out an email in PHP and set up a scheduled task to send it out.
 
 **[Setting Up a Basic Cron Job in Linux](https://www.taniarascia.com/setting-up-a-basic-cron-job-in-linux/)**
+
+## Styling Web UI Components from Scratch: Buttons and Forms
+
+**[Styling Web UI Components from Scratch: Buttons and Forms](https://www.taniarascia.com/styling-ui-components-from-scratch-buttons-forms/)**
+
+Learn how to style buttons and forms without a framework.
 
 ## More
 
