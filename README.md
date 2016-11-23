@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 11/8/2016 - Added Web UI components article.*
+*Update 11/16/2016 - Added Web UI components article.*
 
 Guides, tutorials, demos and snippets for front and back end web development.
 
@@ -30,7 +30,7 @@ Guides, tutorials, demos and snippets for front and back end web development.
 * [Installing, Using and Understanding Sass](#learn-sass-now)
 * [Guide to Installing and Using Gulp](#guide-to-installing-and-using-gulp)
 
-## Systems
+## System
 
 * [Setting Up a Virtual Server (EC2 Instance)](#setting-up-ec2-with-aws)
 * [Enable HTTPS with an SSL/TLS Certificate on Apache](#enable-https-with-an-ssltls-certificate)
@@ -42,7 +42,6 @@ Guides, tutorials, demos and snippets for front and back end web development.
 * [JavaScript Day Two: Comparisons, Math, and Logic](https://www.taniarascia.com/javascript-day-two/)
 
 **[More](#more)**
-
 
 ---
 
@@ -196,7 +195,7 @@ A simple, responsive grid made with flexbox. This grid is based on percentages a
 A simple, responsive grid made with CSS floats and a clearfix hack. This grid is based on percentages rather than the traditional 12-column grid. You can add as many classes as you want columns.
 
 **[Tutorial](https://www.taniarascia.com/you-dont-need-a-framework/) &bull; [Demo](http://codepen.io/taniarascia/pen/GpGdyy)**
-d
+
 ```css
 .row::before, .row::after {
   display: table;
@@ -374,5 +373,4 @@ Learn how to style buttons and forms without a framework.
 
 ## More
 
-* [Common Development Terms and Abbreviations](https://www.taniarascia.com/development-terms-abbreviations/)
 * [Google Maps APIs for Multiple Locations](https://www.taniarascia.com/google-maps-apis-for-multiple-locations/)
