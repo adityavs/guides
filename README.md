@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 11/16/2016 - Added Web UI components article.*
+*Update 12/29/2016 - Added Mac setup article.*
 
 Guides, tutorials, demos and snippets for front and back end web development.
 
@@ -35,6 +35,7 @@ Guides, tutorials, demos and snippets for front and back end web development.
 * [Setting Up a Virtual Server (EC2 Instance)](#setting-up-ec2-with-aws)
 * [Enable HTTPS with an SSL/TLS Certificate on Apache](#enable-https-with-an-ssltls-certificate)
 * [Setting Up a Basic Cron Job in Linux](#setting-up-a-cron-job)
+* [Setting Up a Brand New Mac for Development](#setting-up-a-brand-new-mac-for-development)
 
 ## JavaScript Day by Day
 
@@ -367,9 +368,15 @@ Learn how to send out an email in PHP and set up a scheduled task to send it out
 
 ## Styling Web UI Components from Scratch: Buttons and Forms
 
+Learn how to style buttons and forms without a framework.
+
 **[Styling Web UI Components from Scratch: Buttons and Forms](https://www.taniarascia.com/styling-ui-components-from-scratch-buttons-forms/)**
 
-Learn how to style buttons and forms without a framework.
+## Setting Up a Brand New Mac for Development
+
+Learn how to set up a fast, efficient, up-to-date developer workflow for macOS Sierra using Homebrew.
+
+**[Setting up a Brand New Mac for Development](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/)**
 
 ## More
 
