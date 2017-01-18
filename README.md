@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 12/29/2016 - Added Mac setup article.*
+*Update 1/18/2017 - Added Mac setup article.*
 
 Guides, tutorials, demos and snippets for front and back end web development.
 
@@ -20,6 +20,7 @@ Guides, tutorials, demos and snippets for front and back end web development.
 
 * [Setting Up a Local Server Environment (MAMP)](#local-server-environment---mamp)
 * [Virtual Hosts](#virtual-hosts)
+* [How to Use the Command Line for Apple macOS and Linux](#how-to-use-the-command-line-for-apple-macos-and-linux)
 * [Developing a WordPress Theme from Scratch](#developing-a-wordpress-theme-from-scratch)
 * [Developing a WordPress Theme from Scratch (Part 2)](#developing-a-wordpress-theme-from-scratch-part-2)
 * [Developing a WordPress Theme from Scratch (Part 3)](#developing-a-wordpress-theme-from-scratch-part-3)
@@ -270,6 +271,11 @@ If you want to set up more than one websites on a local server, you can use virt
 * Editing the hosts files - `hosts`
 * Setting the correct ports
 
+## How to Use the Command Line for Apple macOS and Linux
+
+**[How to Use the Command Line for Apple macOS and Linux](https://www.taniarascia.com/how-to-use-the-command-line-for-apple-macos-and-linux/)**
+
+Beginner's guide to using the command line for the first time. Useful for anyone going into web development.
 
 ## Developing a WordPress Theme from Scratch
 
