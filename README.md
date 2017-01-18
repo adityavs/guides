@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 1/18/2017 - Added Mac setup article.*
+*Update 1/18/2017 - Command line tutorial.*
 
 Guides, tutorials, demos and snippets for front and back end web development.
 
