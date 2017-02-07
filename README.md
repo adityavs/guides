@@ -30,6 +30,7 @@ Guides, tutorials, demos and snippets for front and back end web development.
 * [Making a Static Website with Jekyll](#using-jekyll)
 * [Installing, Using and Understanding Sass](#learn-sass-now)
 * [Guide to Installing and Using Gulp](#guide-to-installing-and-using-gulp)
+* [Introduction to jQuery](#introduction-to-jquery)
 
 ## System
 
@@ -353,6 +354,12 @@ Sass is a CSS preproccessor that can make writing CSS faster and more efficient.
 Gulp is a task runner which makes it easy to run redundant tasks without thinking about them. In the case of this article, we'll learn all the necessary prerequisites to installing Gulp, and create a task which compiles SCSS to CSS, minifies, and adds vendor prefixes.
 
 **[Installing and Using Gulp for Front End Web Development](https://www.taniarascia.com/getting-started-with-gulp/)**
+
+## Introduction to jQuery
+
+jQuery is the "Write Less, Do More" JavaScript library. It is not a programming language, but rather a tool used to make writing common JavaScript tasks more concise. jQuery has the added benefit of being cross-browser compatible, meaning you can be certain the output of your code will render as intended in any modern browser.
+
+**[Introduction to jQuery](https://www.digitalocean.com/community/tutorials/an-introduction-to-jquery)**
 
 ## Setting Up EC2 with AWS
 
