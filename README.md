@@ -1,7 +1,5 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 4/18/2017 - JSON data with PHP and JS*
-
 Guides, tutorials, demos and snippets for front and back end web development.
 
 ## Design
