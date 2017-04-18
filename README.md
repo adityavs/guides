@@ -1,6 +1,6 @@
 # Web Development Guides, Tutorials and Snippets
 
-*Update 1/18/2017 - Command line tutorial.*
+*Update 4/18/2017 - JSON data with PHP and JS*
 
 Guides, tutorials, demos and snippets for front and back end web development.
 
@@ -31,6 +31,7 @@ Guides, tutorials, demos and snippets for front and back end web development.
 * [Installing, Using and Understanding Sass](#learn-sass-now)
 * [Guide to Installing and Using Gulp](#guide-to-installing-and-using-gulp)
 * [Introduction to jQuery](#introduction-to-jquery)
+* [How to Use JSON Data with PHP or JavaScript](#how-to-use-json-data-with-php-or-javascript)
 
 ## System
 
@@ -52,7 +53,7 @@ Guides, tutorials, demos and snippets for front and back end web development.
 
 A style of navigation that triggers a full screen overlay. This example utilizes flexbox.
 
-**[Tutorial](https://www.taniarascia.com/full-screen-navigation-overlay/) &bull; [Demo](http://codepen.io/taniarascia/full/yYrXRG/)**
+**[Tutorial](https://www.taniarascia.com/full-screen-navigation-overlay/) | [Demo](http://codepen.io/taniarascia/full/yYrXRG/)**
 
 ```css
 aside {
@@ -73,18 +74,18 @@ aside {
 
 ```html
 <aside>
-  <div class="toggle-overlay">
-    <a class="close"> Toggle </a>
-  </div>
-  <nav>
-  </nav>
+	<div class="toggle-overlay">
+		<a class="close"> Toggle </a>
+	</div>
+	<nav>
+	</nav>
 </aside>
 ```
 
 ```js
- $('.toggle-overlay').click(function() {
-		$('aside').toggleClass('open');
-	});
+$('.toggle-overlay').click(function() {
+	$('aside').toggleClass('open');
+});
 ```
 
 
@@ -92,34 +93,34 @@ aside {
 
 Slide out navigation that is hidden off canvas until triggered. Inspired by the [Lanyon/Poole theme for Jekyll](http://lanyon.getpoole.com/).
 
-**[Tutorial](https://www.taniarascia.com/off-canvas-navigation/) &bull; [Demo](http://codepen.io/taniarascia/full/QjBwpB/)**
+**[Tutorial](https://www.taniarascia.com/off-canvas-navigation/) | [Demo](http://codepen.io/taniarascia/full/QjBwpB/)**
 
 ```css
 html, body { overflow-x: hidden; }
 
 .position {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
 }
 @media screen and (min-width: 800px) {
-  .position { position: fixed; }
+	.position { position: fixed; }
 }
 aside {
-  width: 250px;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: -250px;
+	width: 250px;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: -250px;
 }
 main {
-  width: 100%;
-  position: absolute;
-  left: 0;
+	width: 100%;
+	position: absolute;
+	left: 0;
 }
 article {
-  padding: 0 80px;
+	padding: 0 80px;
 }
 .show-nav aside, .show-nav .position, .show-nav main { transform: translateX(250px); }
 .show-nav .position { position: fixed; }
@@ -129,17 +130,17 @@ article {
 <aside> Navigation </aside>
 <a id="nav-toggle" class="position">Toggle</a>
 <main>
-  <article> Main content </article>
+	<article> Main content </article>
 </main>
 ```
 
 ```js
 $('#nav-toggle').click(function () {
-	this.classList.toggle("active");
+this.classList.toggle("active");
 	if ($('body').hasClass('show-nav')) {
 		$('body').removeClass('show-nav');
-	} else {
-		$('body').addClass('show-nav');
+		} else {
+	$('body').addClass('show-nav');
 	}
 });
 ```
@@ -148,7 +149,7 @@ $('#nav-toggle').click(function () {
 
 A classic top navigation bar with dropdowns. The navigation links collapse into a hamburger icon toggle on mobile collapse.
 
-**[Tutorial](https://www.taniarascia.com/responsive-dropdown-navigation-bar/) &bull; [Demo](http://codepen.io/taniarascia/full/dYvvYv/)**
+**[Tutorial](https://www.taniarascia.com/responsive-dropdown-navigation-bar/) | [Demo](http://codepen.io/taniarascia/full/dYvvYv/)**
 
 ```js
 $('nav ul li a:not(:only-child)').click(function (e) {
@@ -168,22 +169,22 @@ $('#nav-toggle').click(function () {
 
 A simple, responsive grid made with flexbox. This grid is based on percentages and is infinitely expandable.
 
-**[Tutorial](https://www.taniarascia.com/easiest-flex-grid-ever/) &bull; [Demo](http://codepen.io/taniarascia/full/rOLEGe/)**
+**[Tutorial](https://www.taniarascia.com/easiest-flex-grid-ever/) | [Demo](http://codepen.io/taniarascia/full/rOLEGe/)**
 
 ```css
 .column { flex-basis: 100% }
 
 @media screen and (min-width: 800px) {
-  .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-  .column { flex: 1; }
-  .one-fourth { flex: 2.5; }
-  .one-third { flex: 3.3; }
-  .half { flex: 5; }
-}
+	.row {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+	}
+		.column { flex: 1; }
+		.one-fourth { flex: 2.5; }
+		.one-third { flex: 3.3; }
+		.half { flex: 5; }
+	}
 ```
 
 ```html
@@ -197,29 +198,29 @@ A simple, responsive grid made with flexbox. This grid is based on percentages a
 
 A simple, responsive grid made with CSS floats and a clearfix hack. This grid is based on percentages rather than the traditional 12-column grid. You can add as many classes as you want columns.
 
-**[Tutorial](https://www.taniarascia.com/you-dont-need-a-framework/) &bull; [Demo](http://codepen.io/taniarascia/pen/GpGdyy)**
+**[Tutorial](https://www.taniarascia.com/you-dont-need-a-framework/) | [Demo](http://codepen.io/taniarascia/pen/GpGdyy)**
 
 ```css
 .row::before, .row::after {
-  display: table;
-  content: " ";
-  clear: both;
+	display: table;
+	content: " ";
+	clear: both;
 }
 .one, .one-third, .two-thirds, .one-fourth, .half { width: 100%; }
 
 @media only screen and (min-width: 800px) {
-  .one { width: 100%; }
-  .half { width: calc(100% / 2); }
-  .one-third { width: calc(100% / 3); }
-  .one-fourth { width: calc(100% / 4); }
-  .two-thirds { width: calc(100% / 3 * 2); }
-  .column { float: left }
+	.one { width: 100%; }
+	.half { width: calc(100% / 2); }
+	.one-third { width: calc(100% / 3); }
+	.one-fourth { width: calc(100% / 4); }
+	.two-thirds { width: calc(100% / 3 * 2); }
+	.column { float: left }
 }
 ```
 ```html
 <div class="row">
-  <div class="half column"> 50% </div>
-  <div class="half column"> 50% </div>
+	<div class="half column"> 50% </div>
+	<div class="half column"> 50% </div>
 </div>
 ```
 
@@ -360,6 +361,12 @@ Gulp is a task runner which makes it easy to run redundant tasks without thinkin
 jQuery is the "Write Less, Do More" JavaScript library. It is not a programming language, but rather a tool used to make writing common JavaScript tasks more concise. jQuery has the added benefit of being cross-browser compatible, meaning you can be certain the output of your code will render as intended in any modern browser.
 
 **[Introduction to jQuery](https://www.digitalocean.com/community/tutorials/an-introduction-to-jquery)**
+
+## How to Use JSON Data with PHP or JavaScript
+
+Learn what a JSON feed is, and how to extract its data with PHP, JavaScript, or jQuery.
+
+**[How to Use JSON Data with PHP or JavaScript](https://www.taniarascia.com/how-to-use-json-data-with-php-or-javascript/)
 
 ## Setting Up EC2 with AWS
 
