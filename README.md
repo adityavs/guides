@@ -29,7 +29,10 @@ Guides, tutorials, demos and snippets for front and back end web development.
 * [Installing, Using and Understanding Sass](#learn-sass-now)
 * [Guide to Installing and Using Gulp](#guide-to-installing-and-using-gulp)
 * [Introduction to jQuery](#introduction-to-jquery)
-* [How to Use JSON Data with PHP or JavaScript](#how-to-use-json-data-with-php-or-javascript)
+* [How to use JSON Data with PHP or JavaScript](#how-to-use-json-data-with-php-or-javascript)
+* [How to use and install Node.js and npm](https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/)
+* [Using Map, Filter, and Reduce in JavaScript](https://www.taniarascia.com/real-world-examples-of-map-filter-and-reduce-in-javascript/)
+* [Make a simple database app with PHP, MySQL and PDO](https://www.taniarascia.com/create-a-simple-database-app-connecting-to-mysql-with-php/)
 
 ## System
 
@@ -37,6 +40,8 @@ Guides, tutorials, demos and snippets for front and back end web development.
 * [Enable HTTPS with an SSL/TLS Certificate on Apache](#enable-https-with-an-ssltls-certificate)
 * [Setting Up a Basic Cron Job in Linux](#setting-up-a-cron-job)
 * [Setting Up a Brand New Mac for Development](#setting-up-a-brand-new-mac-for-development)
+* [How to use Vagrant and VirtualBox](https://www.taniarascia.com/what-are-vagrant-and-virtualbox-and-how-do-i-use-them/)
+* [How to install LAMP on Ubuntu](https://www.taniarascia.com/how-to-install-apache-php-7-1-and-mysql-on-ubuntu-with-vagrant/)
 
 ## JavaScript Day by Day
 
