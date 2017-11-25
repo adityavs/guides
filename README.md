@@ -403,7 +403,7 @@ Learn how to style buttons and forms without a framework.
 - Fine details, transitions and animations last
 - Don’t go overboard with drop shadows, gradients, or animations
 
-**[Design for Developers](https://www.taniarascia.com/design-for-developers/)
+**[Design for Developers](https://www.taniarascia.com/design-for-developers/)**
 
 ## Setting Up a Brand New Mac for Development
 
