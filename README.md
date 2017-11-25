@@ -13,6 +13,7 @@ Guides, tutorials, demos and snippets for front and back end web development.
 * [What Bootstrap Is and How To Use It](#bootstrap)
 * [Parallax Scroll Effect](#parallax-scroll-effect)
 * [Styling Web UI Components from Scratch: Buttons & Forms](#styling-web-ui-components-from-scratch-buttons-and-forms)
+* [Design for Developers](https://www.taniarascia.com/design-for-developers/)
 
 ## Development
 
@@ -42,11 +43,6 @@ Guides, tutorials, demos and snippets for front and back end web development.
 * [Setting Up a Brand New Mac for Development](#setting-up-a-brand-new-mac-for-development)
 * [How to use Vagrant and VirtualBox](https://www.taniarascia.com/what-are-vagrant-and-virtualbox-and-how-do-i-use-them/)
 * [How to install LAMP on Ubuntu](https://www.taniarascia.com/how-to-install-apache-php-7-1-and-mysql-on-ubuntu-with-vagrant/)
-
-## JavaScript Day by Day
-
-* [JavaScript Day One: Comments, Variables, Data Types, and Hello, World!](https://www.taniarascia.com/javascript-day-one/)
-* [JavaScript Day Two: Comparisons, Math, and Logic](https://www.taniarascia.com/javascript-day-two/)
 
 **[More](#more)**
 
@@ -394,6 +390,20 @@ Learn how to send out an email in PHP and set up a scheduled task to send it out
 Learn how to style buttons and forms without a framework.
 
 **[Styling Web UI Components from Scratch: Buttons and Forms](https://www.taniarascia.com/styling-ui-components-from-scratch-buttons-forms/)**
+
+## Design for Developers
+
+- Structure layout first
+- Use more padding
+- Use more line height on body than headings
+- Do not use pure black
+- Use fewer fonts, or be consistent with fonts
+- Use fewer colors, or complementary colors
+- Be consistent with borders and corners
+- Fine details, transitions and animations last
+- Don’t go overboard with drop shadows, gradients, or animations
+
+**[Design for Developers](https://www.taniarascia.com/design-for-developers/)
 
 ## Setting Up a Brand New Mac for Development
 
