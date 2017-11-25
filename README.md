@@ -13,7 +13,7 @@ Guides, tutorials, demos and snippets for front and back end web development.
 * [What Bootstrap Is and How To Use It](#bootstrap)
 * [Parallax Scroll Effect](#parallax-scroll-effect)
 * [Styling Web UI Components from Scratch: Buttons & Forms](#styling-web-ui-components-from-scratch-buttons-and-forms)
-* [Design for Developers](https://www.taniarascia.com/design-for-developers/)
+* [Design for Developers](#design-for-developers)
 
 ## Development
 
